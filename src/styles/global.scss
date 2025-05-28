@@ -1,0 +1,36 @@
+/* src/styles/global.css */
+
+/* 1) Pull in “Inter” from Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap');
+
+/* 2) Apply it to your whole app */
+body,
+.v-application {
+  font-family: 'Inter', sans-serif;
+}
+
+/* 3) Heading weights for clear hierarchy */
+h1,
+.display-4 {
+  font-weight: 700;
+}
+h2,
+.display-3 {
+  font-weight: 600;
+}
+h3,
+.display-2 {
+  font-weight: 600;
+}
+h4,
+.display-1 {
+  font-weight: 400;
+}
+
+/* 4) Tweak body text for readability */
+p,
+.body-1,
+.body-2 {
+  line-height: 1.6;
+  letter-spacing: 0.2px;
+}
