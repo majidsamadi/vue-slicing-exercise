@@ -19,7 +19,7 @@
           </v-list>
         </v-col>
         <!-- Content Area -->
-        <v-col cols="12" md="9" class="page-container">
+        <v-col cols="12" md="8" class="page-container">
           <router-view />
         </v-col>
       </v-row>

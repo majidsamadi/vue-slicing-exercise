@@ -2,7 +2,7 @@
 <template>
     <v-container>
       <v-row justify="center">
-        <v-col cols="12" md="8">
+        <v-col cols="12" md="12">
           <v-card elevation="2" class="pa-4">
             <v-card-title>
               <span class="text-h5">Spouse Details</span>
